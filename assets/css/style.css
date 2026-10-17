@@ -1,35 +1,42 @@
 :root {
-  --uisil-orange: #e8740c;
-  --uisil-green: #6a9a2a;
+  --turquesa: #0cdde8;
+  --rosa: #dea9d9;
 }
 
 body {
   background: #f5f6f8;
 }
 
-.navbar-uisil {
-  background: var(--uisil-orange);
+.navbar {
+  background: var(--turquesa);
 }
 
-.btn-uisil {
-  background: var(--uisil-green);
-  border-color: var(--uisil-green);
+.navbar a {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+.btn {
+  background: var(--turquesa);
+  border-color: var(--turquesa);
   color: #fff;
 }
-.btn-uisil:hover {
-  background: #587f20;
-  border-color: #587f20;
+.btn:hover {
+  background: var(--rosa);
+  border-color: var(--rosa);
   color: #fff;
 }
 
-.card-header-uisil {
-  background: var(--uisil-green);
+.card-header {
+  background: var(--turquesa);
   color: #fff;
   font-weight: 600;
 }
 
-.table-uisil th {
-  background: #2f3b45;
+.table th {
+  background: #080808;
   color: #fff;
   white-space: nowrap;
 }
